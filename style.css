@@ -1,0 +1,37 @@
+body {
+	background-color: gray;
+}
+h1 {
+	font-family: fantasy;
+}
+h3 {
+	font-family: monospace;
+}
+
+#nameField {
+	width: 500px;
+}
+
+#groupAmount {
+	width: 40px;
+	display: inline-block;
+}
+
+.input {
+	display: inline-block;
+}
+.randomName {
+	display: block;
+}
+
+.randomGroups {
+	display: inline-block;
+	visibility: hidden;
+}
+.spacer {
+	visibility: hidden;
+}
+#randomName {
+	background-color: black;
+	color: white;
+}

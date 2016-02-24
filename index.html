@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>List Maker 3000</h1>
+	<div class='input'>
+		<h3>Names can be entered individually or as comma separated lists</h3>
+		<input type="text" name="Names" id="nameField" placeholder="Put your names here!">
+		<input type="button" id="addName" value="Add!">
+	</div>
+	<span class='spacer'>-----------</span>
+
+	<div class="randomGroups">
+		<h3>Set the amount of people per group: </h3><input type="number" min="0" id="groupAmount"></input>
+		<input type="button" id="genRandomGroups" value='Generate Random Groups!'>
+	</div>
+	<div class='randomName'>
+		<input type='button' id='pickRandomName' value='Pick a Random Name!'>
+		<span id="randomName">
+			
+		</span>
+	</div>
+	<div class='list'>
+		<ul class='namesList'>	
+						
+		</ul>
+	</div>
+	
+	
+	<div class="groupsTable">
+		<ul id="nameList">
+				
+		</ul>
+	</div>
+
+	
+</body>
+</html>
